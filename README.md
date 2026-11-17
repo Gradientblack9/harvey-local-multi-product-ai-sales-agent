@@ -3,6 +3,8 @@
 A private, multi-product sales workspace powered by Ollama on your own machine.
 FastAPI, SQLite, local Sentence Transformers embeddings, and a dashboard with bundled fonts and assets.
 
+The dashboard uses a plain black-and-white layout with Times New Roman. Branding is a simple text heading, with no logo, sidebar promotional message or page footer.
+
 ## Run on Windows
 
 Requires Python 3.11+ and at least 12 GB free disk space for the portable runtime, language model, embeddings and Python dependencies. A 16 GB laptop can run the default 4B model; CPU calls may take several minutes. Start with one prospect.
