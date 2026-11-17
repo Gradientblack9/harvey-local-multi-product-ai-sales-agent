@@ -1,0 +1,384 @@
+{
+  "base_commit": "e2632eb20ee2d4fb6fe04ae715a52f578acf9a37",
+  "purpose": "Approved cleanup completed. Listed original files were path-checked and SHA-256 verified before removal; Git history, MIT licence, local code, data and copied fonts were preserved.",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "a7c68152553d8462f6e1e5ede1b6f84d132a78c7f4901d43c11f5979dc29b101"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ca7b05460de399fe863bbfbf2f4feb8aaa37f005ccd37bd216a9bef9fc91a035"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "f2ece8aaa94b3e26b3bee02a5c5e6f7c6b4ddbea4dbc3e403afcb1725ba4858a"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "4f1f6738a9d89ad72d6764300eddf91ff77a6200c7b8645c3faa80854595537e"
+    },
+    {
+      "path": "docker-compose.yml",
+      "sha256": "28cb2751c99cf5f82e2b3c002454dfdc701546fa846e00964faa188807e55603"
+    },
+    {
+      "path": "docs/dashboard.gif",
+      "sha256": "951713e427dda927b89ae1cfb003e655edab787a1963221218a6a5634a3b7e48"
+    },
+    {
+      "path": "harvey.yaml",
+      "sha256": "7d29aa9ca668744e9c3a985970d610a904192509ca3f0e64e046154bed9fefce"
+    },
+    {
+      "path": "harvey/__init__.py",
+      "sha256": "1d8ec67125679081523923e27ff5a78155a25c7cf8a7fdc6185d799557565357"
+    },
+    {
+      "path": "harvey/__main__.py",
+      "sha256": "88cb0e0a44e2bae343988aed1ce42a45dc6fbf695d545719456ef6af1bf7e3d7"
+    },
+    {
+      "path": "harvey/agents/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "harvey/agents/analyst.py",
+      "sha256": "22a87401390ed8a95520f9a1b037e640708759178b135a69c02e4ce445812167"
+    },
+    {
+      "path": "harvey/agents/handler.py",
+      "sha256": "c7178759a094cbad35c69386c11b0422d604f677d4166578d7cc766cf3340303"
+    },
+    {
+      "path": "harvey/agents/scout.py",
+      "sha256": "92653478b2458004b489dfae29176a11490e977773277f8f26524db2766e2a5b"
+    },
+    {
+      "path": "harvey/agents/sender.py",
+      "sha256": "8b4f5ce15610f27440586351c2b5dfa7f2433f9152dc0da202cb0c54addbbecf"
+    },
+    {
+      "path": "harvey/agents/writer.py",
+      "sha256": "a009cbcba167cd7c436cf49cfd0f09bbc77446601ffbf3b1d8d9d7f1c240e34d"
+    },
+    {
+      "path": "harvey/brain.py",
+      "sha256": "04e2f82299af8332975ce95cf6e3f666d87b61b82a7fc25b2f1d7915c25f35b5"
+    },
+    {
+      "path": "harvey/cli.py",
+      "sha256": "92536a2bae026ce77f181eb1ad4bb01e1efdb5154adae92e33aaa8c7671f2de5"
+    },
+    {
+      "path": "harvey/codex.py",
+      "sha256": "e635789d2485934fdba0360b9cbef25b7761150734062e29fe5a9405c13f4743"
+    },
+    {
+      "path": "harvey/collectors/__init__.py",
+      "sha256": "3c5e7ceb3401f4effb18a7e6aa77a74099acd16a3a7188f8abcd74d54a46723a"
+    },
+    {
+      "path": "harvey/collectors/discover.py",
+      "sha256": "c7941cf98527a152b7e944b7e2556a4c2421b3032addbce8e544b7ff4acf5378"
+    },
+    {
+      "path": "harvey/collectors/profile.py",
+      "sha256": "3b40150a5570ee953a600378f1a6822a5af3781527eaa2090326d6ec24e39432"
+    },
+    {
+      "path": "harvey/config.py",
+      "sha256": "a57a86e7bfc5dca86acf0348a8db63d7ccfa5ce3075f822fa1ee01ad501c54f6"
+    },
+    {
+      "path": "harvey/dashboard.py",
+      "sha256": "96d9609b0ccaa2b80f7792bbb8e6642cc4807d22ecbaf7ea785c376a23278737"
+    },
+    {
+      "path": "harvey/export.py",
+      "sha256": "925c3663227c4e5a564f9da1b341edbcc4664636d689dc09fad3f56a2a906282"
+    },
+    {
+      "path": "harvey/gate.py",
+      "sha256": "efa9ed14677293c31daae8d8bc2e5fc67fd194ead53bce8b006a650330008f2d"
+    },
+    {
+      "path": "harvey/integrations/__init__.py",
+      "sha256": "5f4a5a49cf7b926d647b6d7487812b5cff21618f0f473526ec70d61f8450898f"
+    },
+    {
+      "path": "harvey/integrations/calendar.py",
+      "sha256": "f701fbce35fcdb05858036987c6b9324aaf9dc3f93bf832c80bced7fe9366c64"
+    },
+    {
+      "path": "harvey/integrations/email_finder.py",
+      "sha256": "1c09506391e8e718e50c7e66476bd97828eafd41fa9e1beee7dc8f3f71d5002d"
+    },
+    {
+      "path": "harvey/integrations/gmail.py",
+      "sha256": "a3cca66accc974c25130b9a512ff83f897cd3a13b39780694cc89c97118733ef"
+    },
+    {
+      "path": "harvey/integrations/instantly.py",
+      "sha256": "6ad713540b0d4a41bff08e90c80aac81c3ac1f6ffdbd4c1fc511efa045671e53"
+    },
+    {
+      "path": "harvey/integrations/linkedin.py",
+      "sha256": "23304d8134e84873d62bf81e030f343f2ad32c220d1bc5968838bbed5e0112bd"
+    },
+    {
+      "path": "harvey/integrations/mail_provider.py",
+      "sha256": "7f79b0465c8272942efba77abd0c891bc0b28ae92aaee5d8292436ea548076f2"
+    },
+    {
+      "path": "harvey/integrations/quota.py",
+      "sha256": "a9130bc2301e5fe42af25e421a3aa177f9dd22689115f75ad55a38bc49e66fdd"
+    },
+    {
+      "path": "harvey/integrations/smtp_mail.py",
+      "sha256": "3b4c001541f89e0517e9f572460ffd124322215a4da4f7643a0a1c9a9018ff1f"
+    },
+    {
+      "path": "harvey/integrations/tech_detect.py",
+      "sha256": "863d61d6834afb3863856cdf7b53b5abc18d4313b4ddb1c2767d351b718d1d18"
+    },
+    {
+      "path": "harvey/main.py",
+      "sha256": "86c79cf9257474485e515fcab364a73f1a54399d5f69ab17b13e9ce667f9cf9f"
+    },
+    {
+      "path": "harvey/models/__init__.py",
+      "sha256": "56143cb6c27cf182f22cae83bc9179b420e61bdd8f184b694bf248aa5b87fffd"
+    },
+    {
+      "path": "harvey/models/campaign.py",
+      "sha256": "e25c468762875b604162e2bab1f084b4c3355417910ff34a834c3a4054b8a221"
+    },
+    {
+      "path": "harvey/models/company.py",
+      "sha256": "04d33fb348a1f515c8f9364dbe48cf165772e331a32a6cca0f6690d8fe312230"
+    },
+    {
+      "path": "harvey/models/conversation.py",
+      "sha256": "8f1e67f1b93bf7f3d0950c26705ce572f8d29adc0aaa395bb5debc3094d9573d"
+    },
+    {
+      "path": "harvey/models/prospect.py",
+      "sha256": "e7743062b3859a94de911c05dcb57fbaaea10ba340e7007af2160542763943e0"
+    },
+    {
+      "path": "harvey/paths.py",
+      "sha256": "cdaacfc2e35e4ce75e13d3327172d7663a9c6338f57de29de9de67228e23fcca"
+    },
+    {
+      "path": "harvey/pipeline.py",
+      "sha256": "adba6caeca6cdfbadba12f4253dc079230cb4ea9a180ab346fd19567261b569e"
+    },
+    {
+      "path": "harvey/setup.py",
+      "sha256": "960c69bfe5a946d71b3e2469cf6fdc70ca75f0c54164aa012126b01cb074e7c7"
+    },
+    {
+      "path": "harvey/signals.py",
+      "sha256": "3b830d8f98b558d8f9fde1af97e0d3e11bf5d85439c4ff1f7ddd18f76a0b7810"
+    },
+    {
+      "path": "harvey/state.py",
+      "sha256": "80d74f9c7df653704522cdef0101c7839b61344d4193036284f21733f7926fe0"
+    },
+    {
+      "path": "harvey/trainer.py",
+      "sha256": "8c38b49c6232fa8e2da01cc29b1a81be024a91b4b45a967887638f8ea956a173"
+    },
+    {
+      "path": "harvey/usage.py",
+      "sha256": "5ee6bcd942b151ccd3c5f3caad6bd4b1f388e491a3c99147f5616fed0cfd3485"
+    },
+    {
+      "path": "harvey/web/app.css",
+      "sha256": "8f5eccaa877a7cee08fc59a4b886bc2620c6a3dfa4fe3e78c4ff5a2e387ded3d"
+    },
+    {
+      "path": "harvey/web/app.js",
+      "sha256": "b105d8b0920b8c52b29f7983a844e83e3f85222fc16fde6361bdd5f13e7ea467"
+    },
+    {
+      "path": "harvey/web/fonts/geist-mono.woff2",
+      "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b"
+    },
+    {
+      "path": "harvey/web/fonts/geist.woff2",
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+    },
+    {
+      "path": "harvey/web/fonts/newsreader.woff2",
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "path": "harvey/web/index.html",
+      "sha256": "a367f6e8cf033bfb1aadfdd13cd7d8cd4936172c6f6fde632bdc6b36a1b68062"
+    },
+    {
+      "path": "prompts/handler.md",
+      "sha256": "943192f32f8091aef0b46f032b4b0933feaf3df7e5e5a6b91605314796a3c920"
+    },
+    {
+      "path": "prompts/scout.md",
+      "sha256": "1b10e38bec9139827168d6d6070a5f184c0a34ac9423140d3cbef5d350783047"
+    },
+    {
+      "path": "prompts/system.md",
+      "sha256": "7a9a9abbd75ae7e51ae61eeb46bdfb5896f7ccfff887c92ddc98bb7182db7be0"
+    },
+    {
+      "path": "prompts/writer.md",
+      "sha256": "6586d7e73c8d2cc37cbca4c3547fb92f982e23ab6a2e548e22fc6016fe7a7292"
+    },
+    {
+      "path": "skills/README.md",
+      "sha256": "79cb06165587c677aa4b8afaa9e10fe06458d241a2ae4af99aa07938ae8aa1a7"
+    },
+    {
+      "path": "skills/account_navigation.md",
+      "sha256": "88e82a84f280df5676f6352ae94840ce139fe7553b675b36776b51097b116cd9"
+    },
+    {
+      "path": "skills/email_frameworks.md",
+      "sha256": "3fd944e35e43def002458a4055bf5db45f4cae423171e1e27829615f365fa4eb"
+    },
+    {
+      "path": "skills/lead_qualification.md",
+      "sha256": "0fa61d5811794dc0e652e22e77403f07a1d5c6727913b14be112a5c98a666afd"
+    },
+    {
+      "path": "skills/linkedin_outreach.md",
+      "sha256": "a95cd8b39c7280f69e52a7602f390164d998b494f7c9b34e7360f7d845aa2475"
+    },
+    {
+      "path": "skills/objection_handling.md",
+      "sha256": "efc12fee163b0f4cbe833643c5854a1f983a277bce59ee593695b656cf7d2830"
+    },
+    {
+      "path": "skills/offer_strategy.md",
+      "sha256": "b6cbf4f620442e35d060110f10cacb58a4452b29c70ab50378fd33256a8b715e"
+    },
+    {
+      "path": "skills/prospecting_tactics.md",
+      "sha256": "87f140f7b302a683e28dbbd8b8b324026e87a42d6d8ebb92710fa126f0e4aa0b"
+    },
+    {
+      "path": "skills/sales_methodology.md",
+      "sha256": "fe629dc7870f512e1e9f892e67a7e0a9d14806df86d62506cb7884be3fb93418"
+    },
+    {
+      "path": "skills/signal_playbook.md",
+      "sha256": "1bfedc5c7161a4d158c493364dd1ffc01761b767c66edd63a0daac8716f566a2"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/fake_codex.py",
+      "sha256": "fde60dd05bd747f9e5d61876d80d9c90af707809b9c8036110399ce3f4aafc66"
+    },
+    {
+      "path": "tests/fixtures/pre_codex_harvey_0_2_1.sql",
+      "sha256": "3df9bf6cfdef5879314841c44fea3bb88edf0874444d58b36c804deed1abbd40"
+    },
+    {
+      "path": "tests/test_brain_no_tools.py",
+      "sha256": "0797c64781e0d54ca982c6d9ade675f7ccb622cff684e3ca0a08ec9d635202ba"
+    },
+    {
+      "path": "tests/test_brain_provider.py",
+      "sha256": "96fe1e29b081a3d44a1dd14eb1c93d979fec9d9ebcd038aee04d4d2534e642ef"
+    },
+    {
+      "path": "tests/test_codex.py",
+      "sha256": "a74403d4f7c1ce1659dd37783d7646f2f9df3bcdbbef7bd5ed989fe7ca9edf43"
+    },
+    {
+      "path": "tests/test_codex_cli_surface.py",
+      "sha256": "eabb2767e724fd3e658f9eed18fbf46ab5a8b49a44719d8390a6687378c3a11f"
+    },
+    {
+      "path": "tests/test_codex_e2e.py",
+      "sha256": "169ec6e5bcb35720a2bb89c41a93b6fef0e9e15e00ec3d054b84ba8b708be871"
+    },
+    {
+      "path": "tests/test_codex_platform.py",
+      "sha256": "4aab6fe6e09c6f9156e675c21342bdea505ccd208feab87e7a034261b6235990"
+    },
+    {
+      "path": "tests/test_codex_soak.py",
+      "sha256": "d10839033a5bba7588557a8f02f0a292f08a3435f19f305a3541d9ceeee55ab7"
+    },
+    {
+      "path": "tests/test_collectors_profile.py",
+      "sha256": "a8925b187eaa7389b311d9c72f0ec9560b9a6c2ee2a8d5f81d16ba70e94c1b37"
+    },
+    {
+      "path": "tests/test_config.py",
+      "sha256": "c688c443a8987a3a006933776bcb15ee1e877f0ebb122db7a7ea3f01f48139a3"
+    },
+    {
+      "path": "tests/test_config_extra.py",
+      "sha256": "35b7d342358152f8214d515f7677b6178ebdd59d759f51a710ccfd1ae3ae586a"
+    },
+    {
+      "path": "tests/test_dashboard_signals.py",
+      "sha256": "498bf03cdba872d381285db23044cda6a6a58dbb86435d09f96c66c01ae97c01"
+    },
+    {
+      "path": "tests/test_discover.py",
+      "sha256": "daa21db40a7d412ba692df69fec5dcad52b0d5ed79af465a21d75bb2d25cc6df"
+    },
+    {
+      "path": "tests/test_email_finder.py",
+      "sha256": "f12e595d5dff813740bd0dcb8b8940834d964210ceb7d5e4c7f4aac7b2d9abc4"
+    },
+    {
+      "path": "tests/test_email_wiring.py",
+      "sha256": "4fa485a04719e6327d6ee300f7b60e285e17fcd6ef5df08d99db63fe61d30063"
+    },
+    {
+      "path": "tests/test_models.py",
+      "sha256": "4b4c256b5db5d2024eb938dfdce1406cf0d991e1a0c306835b9ac65e5918d15d"
+    },
+    {
+      "path": "tests/test_models_extra.py",
+      "sha256": "f2a31d057fa9fb9649fb525523ebb0873065eedcde83bfdb06ee7e4abd67fed8"
+    },
+    {
+      "path": "tests/test_outbox_native.py",
+      "sha256": "83bec2cbdb6f77a328e40793102979e41b91ae24807db4ce2ef6aef5582f5c0f"
+    },
+    {
+      "path": "tests/test_packaging.py",
+      "sha256": "132804712ce6e5ec1c7be7f3361680f04d99ab6a53c9af77489176133888343d"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "7ee22942a7084ee1ffd7e8775696ac27338ffc8ec7374cc2e9e5f5b5cfc66c0b"
+    },
+    {
+      "path": "tests/test_signals_export.py",
+      "sha256": "fcef4e323221f65fccbc6b9cf844e86a62659f9d08f009eacd24dbb04205bfa4"
+    },
+    {
+      "path": "tests/test_state.py",
+      "sha256": "f9a576809c5401c6463a8382750974bc86fc08a6637bc1edff166ed29ecce12f"
+    },
+    {
+      "path": "tests/test_state_extra.py",
+      "sha256": "e8e274756c3cabb16f8c19c7ae5540e2c91673885585861c24bb476b59fd5469"
+    },
+    {
+      "path": "tests/test_usage.py",
+      "sha256": "3953a4fa08e2f68ac6a615cac0bffdafc7fd7100c4014772f3baade24428ac2f"
+    }
+  ],
+  "status": "completed",
+  "completed_at": "2026-11-17T09:38:01+00:00"
+}

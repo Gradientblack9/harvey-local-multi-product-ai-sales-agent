@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your private, local AI sales workspace. Research prospects, find buying signals and draft thoughtful outreach with Ollama.">
+  <title>Harvey Local · Sales workspace</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace</a>
+  <aside class="sidebar" aria-label="Sidebar">
+    <a class="brand" href="#overview"><span class="brand-mark">h<span>✳</span></span><span>harvey<span class="brand-local">LOCAL SALES AGENT</span></span></a>
+    <div class="workspace-label">WORKSPACE <span>ON DEVICE</span></div>
+    <div class="product-control"><span class="product-icon" id="product-icon">S</span><label class="sr-only" for="product-select">Selected product</label><select id="product-select"><option>Loading products…</option></select><button class="icon-button" data-action="edit-product" title="Edit selected product" aria-label="Edit selected product">⚙</button></div>
+    <button class="add-product" data-action="new-product">+ Add a product</button>
+    <div class="nav-label">WORKSPACE</div>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#overview" data-page="overview"><span data-icon="grid"></span>Overview</a>
+      <a href="#prospects" data-page="prospects"><span data-icon="users"></span>Prospects<span class="nav-count" id="prospect-count">—</span></a>
+      <a href="#emails" data-page="emails"><span data-icon="mail"></span>Email drafts<span class="nav-count" id="draft-count">0</span></a>
+      <a href="#replies" data-page="replies"><span data-icon="chat"></span>Replies</a>
+      <div class="nav-label system-label">SYSTEM</div>
+      <a href="#tasks" data-page="tasks"><span data-icon="layers"></span>Task queue<span class="nav-count" id="task-count">0</span></a>
+      <a href="#logs" data-page="logs"><span data-icon="terminal"></span>Inference logs</a>
+      <a href="#settings" data-page="settings"><span data-icon="sliders"></span>Local setup</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="privacy-symbol" data-icon="shield"></div><div><strong>Your data stays here.</strong><p>Local models. Your machine.<br>Zero token charges.</p></div></div>
+    <div class="instance"><span class="status-dot"></span>LOCAL INSTANCE <span>v1.0</span></div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><div class="breadcrumbs"><span>Workspace</span><span>/</span><strong id="page-title">Overview</strong></div><div class="topbar-right"><span class="local-pill"><span class="status-dot" id="model-dot"></span><span id="model-status">Checking local model…</span></span><button class="icon-button" data-action="refresh" title="Refresh workspace" aria-label="Refresh workspace"><span data-icon="refresh"></span></button><div class="avatar" title="Local workspace">HS</div></div></header>
+    <main id="main" tabindex="-1"><div class="loading-state"><span class="spinner"></span><p>Opening your workspace…</p></div></main>
+    <footer class="app-footer"><span><span class="status-dot"></span>Built to run on your machine</span><span>Harvey Local <span class="footer-divider">/</span> Powered by Ollama</span></footer>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="dialog-top"><div><p class="eyebrow" id="modal-eyebrow">WORKSPACE</p><h2 id="modal-title">Product</h2></div><button class="icon-button" data-action="close-modal" aria-label="Close dialog">✕</button></div><div id="modal-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
