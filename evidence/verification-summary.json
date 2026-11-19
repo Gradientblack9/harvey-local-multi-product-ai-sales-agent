@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-11-17T09:52:25.262060+00:00",
+  "base_commit": "e2632eb20ee2d4fb6fe04ae715a52f578acf9a37",
+  "branch": "codex/local-multi-product",
+  "automated_tests": {
+    "passed": 18,
+    "failed": 0,
+    "log": "..................                                                       [100%]\n18 passed in 11.14s\n"
+  },
+  "real_model": "qwen3:4b",
+  "all_eight_workflow_types_completed": true,
+  "two_distinct_product_icps": true,
+  "process_level_non_loopback_guard_test": true,
+  "real_ollama_outage_and_recovery": true,
+  "browsing_works_during_outage": true,
+  "wheel_build_and_independent_import_check": true,
+  "physical_wifi_off_acceptance": "not performed",
+  "final_screen_recording": "not recorded; demo guide included",
+  "evidence_source_commit": "a299c84dd15e54dfd514c864100b4e4baaf38df1",
+  "remote_fork": "https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent",
+  "deployment": "Not requested; repository and documented local setup only.",
+  "notice": "Historical measurements. Physical disconnected acceptance and demo video remain outstanding."
+}

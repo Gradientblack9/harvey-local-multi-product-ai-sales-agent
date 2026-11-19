@@ -48,7 +48,7 @@ Do not claim this manual test passed unless it was actually performed and record
 - [x] Outage and recovery demonstrated with the real runtime stopped/restarted.
 - [x] Two distinct product ICPs and product-scoped outputs shown.
 - [x] Tests, source audit, licence table, cost statement and limitations included.
-- [ ] A user-owned remote fork with the tested commit published.
+- [x] A user-owned remote fork with the implementation published: https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent (default branch `assignment-2`).
 - [ ] Final 5-10 minute screen recording matches that exact commit.
 
-Actual results from this build are summarised in `output/build-verification.json`; check its status fields rather than treating this checklist as evidence of completion.
+Tracked, sample-only results are in [the evidence directory](../evidence/README.md). Original build artifacts remain under the ignored `output/` directory on the development machine. Historical test reports identify the source revision they tested; the final submission revision is the default branch HEAD.

@@ -5,12 +5,25 @@ FastAPI, SQLite, local Sentence Transformers embeddings, and a dashboard with bu
 
 The dashboard uses a plain black-and-white layout with Times New Roman. Branding is a simple text heading, with no logo, sidebar promotional message or page footer.
 
+## EDXSO Assignment 2 submission
+
+**Repository:** https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent
+
+This is a genuine fork of Harvey, based on the MIT-licensed v0.3.0 revision. The default `assignment-2` branch contains the local implementation. The upstream project's current default branch uses a different licence; this implementation preserves its pinned MIT base and attribution.
+
+This submission is **locally runnable**. No public deployment is provided. AI generation runs on the user's computer through Ollama, and there is no cloud inference fallback.
+
+See the [assignment requirements and deliverables](docs/assignment-submission.md), [technical architecture](docs/local-architecture.md), [cost/licence statement](docs/local-licenses.md), and [test evidence](evidence/README.md).
+
+**Still required before claiming full assignment acceptance:** record the physical internet-disconnected acceptance test and a 5-10 minute demonstration of the submitted commit. The included process-level network guard and real runtime-outage evidence do not replace that recording.
+
 ## Run on Windows
 
 Requires Python 3.11+ and at least 12 GB free disk space for the portable runtime, language model, embeddings and Python dependencies. A 16 GB laptop can run the default 4B model; CPU calls may take several minutes. Start with one prospect.
 
 ```powershell
-cd harvey-local
+git clone https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent.git
+cd harvey-local-multi-product-ai-sales-agent
 .\setup.ps1
 .\start.ps1
 ```
@@ -94,7 +107,7 @@ The source audit checks both the executable local package and repository text fi
 - No public-web research, enrichment services, mailbox connections, sending, multi-user authentication or hosted deployment is included.
 - NVIDIA GPU detection is best effort. Integrated GPUs are not treated as dedicated inference GPUs. Model selection is conservative: below 8 GB RAM use 1.7B; ordinary 8-24 GB CPU machines use 4B; 24 GB RAM or 8 GB VRAM qualifies for 8B.
 - Data stays on the machine but the checkout is currently inside OneDrive. Move it outside synchronised folders if OS-level cloud synchronisation is unwanted.
-- A physical Wi-Fi-off run, final 5-10 minute screen recording and a user-owned GitHub fork/publication need their own evidence; see the verification report for what was actually run.
+- A physical Wi-Fi-off run and final 5-10 minute screen recording need their own evidence; see the verification report for what was actually run. The public GitHub fork is provided above.
 
 ## Other operating systems
 
