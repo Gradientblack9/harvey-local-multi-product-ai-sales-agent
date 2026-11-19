@@ -44,11 +44,14 @@ Do not claim this manual test passed unless it was actually performed and record
 ## Submission checklist
 
 - [x] Literal repository text/provider scan clean after approved legacy cleanup (excluding Git history, downloaded packages/models, user data and generated evidence).
-- [ ] Physical disconnected run of all eight workflows recorded.
+- [x] Demo link supplied; submitter confirms it includes the disconnected test.
+- [ ] Independently verify video access and fresh execution of all eight workflows while disconnected.
 - [x] Outage and recovery demonstrated with the real runtime stopped/restarted.
 - [x] Two distinct product ICPs and product-scoped outputs shown.
 - [x] Tests, source audit, licence table, cost statement and limitations included.
 - [x] A user-owned remote fork with the implementation published: https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent (default branch `assignment-2`).
-- [ ] Final 5-10 minute screen recording matches that exact commit.
+- [ ] Independently verify recording duration and match to the application revision.
+
+[Submitted demo](https://drive.google.com/file/d/1yE9wX_hgOdah1AvPohjAdwIcLFRORUrx/view?usp=sharing). See [current submission status](../evidence/submission-status.json). The earlier test records below are historical and are not rewritten by the submitter confirmation.
 
 Tracked, sample-only results are in [the evidence directory](../evidence/README.md). Original build artifacts remain under the ignored `output/` directory on the development machine. Historical test reports identify the source revision they tested; the final submission revision is the default branch HEAD.

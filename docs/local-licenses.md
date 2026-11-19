@@ -28,6 +28,8 @@ The application uses no metered inference service and no subscription-backed mod
 
 Model and runtime files live in ignored `models/` and `.runtime/` folders and are not committed to Git. The portable runtime downloader is pinned to the tested Ollama release and checks the release asset's SHA-256 digest when the official metadata supplies one; it records the downloaded digest in `.runtime/release.json`. Embedding weights are downloaded by a separate setup-only script and saved locally.
 
+The dependency inventory now also includes reviewed package-level licence identifiers where installed metadata was incomplete. The complete version/licence table appears in [the submission report](submission-report.md). Transitive exceptions include certifi (MPL-2.0), tqdm (MPL-2.0 AND MIT), and mixed expressions for NumPy and regex; the dependency closure is not uniformly MIT/BSD/Apache. Bundled native notices still apply.
+
 ## Hardware
 
 The build machine reported approximately 15.7 GB RAM, 10 physical cores / 12 logical threads, and no NVIDIA GPU. Ollama detected an Intel integrated GPU but selected CPU execution. The default is Qwen3 4B with a 4096-token context and one concurrent generation. Call durations in exported inference logs are the actual measurements; the UI does not invent throughput figures.

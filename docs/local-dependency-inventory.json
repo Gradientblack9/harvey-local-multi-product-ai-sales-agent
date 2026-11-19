@@ -15,7 +15,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "annotated-types",
@@ -29,7 +30,9 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "anyio",
@@ -44,7 +47,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "certifi",
@@ -56,7 +60,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MPL-2.0"
     },
     {
       "name": "charset-normalizer",
@@ -71,7 +76,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "click",
@@ -87,7 +93,8 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "cloudpickle",
@@ -97,7 +104,8 @@
       "project_urls": [],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "colorama",
@@ -109,7 +117,9 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "fastapi",
@@ -125,7 +135,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "filelock",
@@ -140,7 +151,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "fsspec",
@@ -154,7 +166,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "h11",
@@ -164,7 +177,8 @@
       "project_urls": [],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "httpcore",
@@ -178,7 +192,8 @@
       ],
       "license_files": [
         "LICENSE.md"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "httpx",
@@ -191,7 +206,8 @@
         "Homepage, https://github.com/encode/httpx",
         "Source, https://github.com/encode/httpx"
       ],
-      "license_files": []
+      "license_files": [],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "huggingface_hub",
@@ -201,7 +217,9 @@
       "project_urls": [],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "idna",
@@ -215,7 +233,8 @@
       ],
       "license_files": [
         "LICENSE.md"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "iniconfig",
@@ -227,7 +246,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "Jinja2",
@@ -243,7 +263,9 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "joblib",
@@ -256,7 +278,8 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "MarkupSafe",
@@ -272,7 +295,8 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "mpmath",
@@ -286,7 +310,9 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "narwhals",
@@ -301,7 +327,8 @@
       ],
       "license_files": [
         "LICENSE.md"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "networkx",
@@ -316,7 +343,8 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "numpy",
@@ -349,7 +377,8 @@
         "numpy/random/src/philox/LICENSE.md",
         "numpy/random/src/sfc64/LICENSE.md",
         "numpy/random/src/splitmix64/LICENSE.md"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
     },
     {
       "name": "packaging",
@@ -364,7 +393,8 @@
         "LICENSE",
         "LICENSE.APACHE",
         "LICENSE.BSD"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0 OR BSD-2-Clause"
     },
     {
       "name": "pillow",
@@ -382,7 +412,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT-CMU"
     },
     {
       "name": "pluggy",
@@ -392,7 +423,8 @@
       "project_urls": [],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "psutil",
@@ -402,7 +434,8 @@
       "project_urls": [],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "pydantic",
@@ -418,7 +451,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "pydantic_core",
@@ -432,7 +466,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "Pygments",
@@ -449,7 +484,8 @@
       "license_files": [
         "AUTHORS",
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "BSD-2-Clause"
     },
     {
       "name": "pytest",
@@ -466,7 +502,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "PyYAML",
@@ -482,7 +519,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "regex",
@@ -494,7 +532,8 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0 AND CNRI-Python"
     },
     {
       "name": "requests",
@@ -508,7 +547,8 @@
       "license_files": [
         "LICENSE",
         "NOTICE"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0"
     },
     {
       "name": "safetensors",
@@ -521,7 +561,9 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "scikit-learn",
@@ -537,7 +579,8 @@
       ],
       "license_files": [
         "COPYING"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "scipy",
@@ -551,7 +594,9 @@
         "download, https://github.com/scipy/scipy/releases",
         "tracker, https://github.com/scipy/scipy/issues"
       ],
-      "license_files": []
+      "license_files": [],
+      "reviewed_license": "BSD-3-Clause",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "sentence-transformers",
@@ -565,7 +610,9 @@
       "license_files": [
         "LICENSE",
         "NOTICE.txt"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "setuptools",
@@ -579,7 +626,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "starlette",
@@ -595,7 +643,8 @@
       ],
       "license_files": [
         "LICENSE.md"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "sympy",
@@ -608,7 +657,9 @@
       "license_files": [
         "LICENSE",
         "AUTHORS"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "threadpoolctl",
@@ -620,7 +671,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "tokenizers",
@@ -631,7 +683,9 @@
         "Homepage, https://github.com/huggingface/tokenizers",
         "Source, https://github.com/huggingface/tokenizers"
       ],
-      "license_files": []
+      "license_files": [],
+      "reviewed_license": "Apache-2.0",
+      "review_source": "https://github.com/huggingface/tokenizers/blob/v0.22.2/LICENSE"
     },
     {
       "name": "torch",
@@ -648,7 +702,8 @@
       "license_files": [
         "LICENSE",
         "NOTICE"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     },
     {
       "name": "tqdm",
@@ -663,7 +718,8 @@
       ],
       "license_files": [
         "LICENCE"
-      ]
+      ],
+      "reviewed_license": "MPL-2.0 AND MIT"
     },
     {
       "name": "transformers",
@@ -673,7 +729,9 @@
       "project_urls": [],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "Apache-2.0",
+      "review_source": "Installed package licence file; package-level identifier, additional bundled notices may apply"
     },
     {
       "name": "typing-inspection",
@@ -688,7 +746,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "typing_extensions",
@@ -705,7 +764,8 @@
       ],
       "license_files": [
         "LICENSE"
-      ]
+      ],
+      "reviewed_license": "PSF-2.0"
     },
     {
       "name": "urllib3",
@@ -720,7 +780,8 @@
       ],
       "license_files": [
         "LICENSE.txt"
-      ]
+      ],
+      "reviewed_license": "MIT"
     },
     {
       "name": "uvicorn",
@@ -735,7 +796,8 @@
       ],
       "license_files": [
         "LICENSE.md"
-      ]
+      ],
+      "reviewed_license": "BSD-3-Clause"
     }
   ]
 }

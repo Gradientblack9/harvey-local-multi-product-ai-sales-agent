@@ -6,7 +6,9 @@
 - Submission branch: `assignment-2` (repository default).
 - Application: locally runnable using `setup.ps1` and `start.ps1`.
 - Hosted URL: not provided; repository-only delivery was selected.
-- Demo recording: not recorded yet. Follow [the demo guide](local-demo.md).
+- Demo recording: [Watch the submitted demonstration](https://drive.google.com/file/d/1yE9wX_hgOdah1AvPohjAdwIcLFRORUrx/view?usp=sharing). The submitter confirms it includes the disconnected test; viewing access, duration, workflow coverage and exact recorded revision are not independently verified.
+- Submission cover: [One-page PDF with all links](submission-one-page.pdf).
+- Technical report: [PDF](submission-report.pdf) and [editable Markdown](submission-report.md).
 
 ## Requirements and implementation
 
@@ -29,8 +31,8 @@
 | Local inference traceability | Task IDs, product IDs, source, loopback endpoint, model, timestamp, duration and runtime token counts | Real inference logs included |
 | Reproducible fresh-clone setup | README, pinned direct dependencies, portable Windows runtime/model setup | Documented; current development machine tested |
 | Public-web research tools | Not included. This version supports the required local-data research path; fresh external discovery/collection is a known limitation | Not implemented |
-| Physical offline acceptance | A process-level loopback-only guard was tested. Internet was not physically disconnected for that test | **Pending physical test** |
-| 5-10 minute screen recording | Recording sequence supplied in `local-demo.md`; video must show the final submitted commit and physical offline test | **Pending recording** |
+| Physical offline acceptance | Submitter confirms the disconnected test is included in the linked video; the historical process guard is separate evidence | Submitter-confirmed; not independently reviewed |
+| 5-10 minute screen recording | Video supplied above; duration, access and exact revision match need reviewer confirmation | Link supplied |
 | Deployment | Clearly documented local setup selected; no cloud model serving and no public tunnel | Local delivery |
 
 ## How to evaluate
@@ -52,4 +54,4 @@ The `evidence/` directory excludes the personal workspace database, user-created
 
 ## Limits to acceptance
 
-The repository is not presented as having completed the assignment's final physical offline demonstration. That recording remains necessary, and the assignment treats missing offline proof as a failure condition. CPU latency, optional external collection, model uncertainty and the lack of production authentication are documented in the README and technical report.
+The submitter confirms that the supplied recording includes the disconnected test. Independent review of the recording and its exact revision match remains outstanding; missing or materially incomplete offline proof is an assignment failure condition. CPU latency, optional external collection, model uncertainty and the lack of production authentication are documented in the README and technical report.

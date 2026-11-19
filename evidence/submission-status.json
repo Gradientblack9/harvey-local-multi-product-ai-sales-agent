@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-11-19",
+  "application_commit": "1be8dd22909d07211c1c4f82a69924ffc571c026",
+  "changes": "Submission documentation and evidence only; application code unchanged",
+  "demo_url": "https://drive.google.com/file/d/1yE9wX_hgOdah1AvPohjAdwIcLFRORUrx/view?usp=sharing",
+  "demo_status": "Link supplied by submitter",
+  "physical_offline_test": "Submitter confirmed that demo includes disconnected test",
+  "independent_video_review": false,
+  "video_duration_verified": false,
+  "recorded_commit_verified": false,
+  "public_video_access_verified": false,
+  "automated_tests": {
+    "passed": 18,
+    "failed": 0,
+    "duration_seconds": 4.39
+  },
+  "source_audit": {
+    "runtime_pass": true,
+    "whole_repository_pass": true
+  },
+  "ci_url": "https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent/actions/runs/44512067973",
+  "historical_evidence": "Original verification-summary.json and real-model reports are preserved; their original run did not physically disconnect Wi-Fi",
+  "known_gap": "Public-web research/collection is not implemented"
+}

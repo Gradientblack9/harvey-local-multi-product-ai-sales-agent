@@ -7,6 +7,8 @@ The dashboard uses a plain black-and-white layout with Times New Roman. Branding
 
 ## EDXSO Assignment 2 submission
 
+**[One-page submission PDF](docs/submission-one-page.pdf)** | [Technical report](docs/submission-report.md) | [Video demonstration](https://drive.google.com/file/d/1yE9wX_hgOdah1AvPohjAdwIcLFRORUrx/view?usp=sharing)
+
 **Repository:** https://github.com/Gradientblack9/harvey-local-multi-product-ai-sales-agent
 
 This is a genuine fork of Harvey, based on the MIT-licensed v0.3.0 revision. The default `assignment-2` branch contains the local implementation. The upstream project's current default branch uses a different licence; this implementation preserves its pinned MIT base and attribution.
@@ -15,7 +17,7 @@ This submission is **locally runnable**. No public deployment is provided. AI ge
 
 See the [assignment requirements and deliverables](docs/assignment-submission.md), [technical architecture](docs/local-architecture.md), [cost/licence statement](docs/local-licenses.md), and [test evidence](evidence/README.md).
 
-**Still required before claiming full assignment acceptance:** record the physical internet-disconnected acceptance test and a 5-10 minute demonstration of the submitted commit. The included process-level network guard and real runtime-outage evidence do not replace that recording.
+**Demo supplied:** the submitter confirms that the linked recording includes the disconnected test. Video access, duration, complete workflow coverage and exact recorded commit have not been independently verified. The earlier process-level network guard remains separate historical evidence; see [current submission status](evidence/submission-status.json).
 
 ## Run on Windows
 
@@ -109,8 +111,8 @@ The source audit checks both the executable local package and repository text fi
 - No public-web research, enrichment services, mailbox connections, sending, multi-user authentication or hosted deployment is included.
 - NVIDIA GPU detection is best effort. Integrated GPUs are not treated as dedicated inference GPUs. Model selection is conservative: below 8 GB RAM use 1.7B; ordinary 8-24 GB CPU machines use 4B; 24 GB RAM or 8 GB VRAM qualifies for 8B.
 - Data stays on the machine but the checkout is currently inside OneDrive. Move it outside synchronised folders if OS-level cloud synchronisation is unwanted.
-- A physical Wi-Fi-off run and final 5-10 minute screen recording need their own evidence; see the verification report for what was actually run. The public GitHub fork is provided above.
+- The supplied demo includes a disconnected test according to the submitter. Its contents and exact revision match have not been independently verified; historical test records retain their original limitations.
 
 ## Other operating systems
 
-The Python app is portable; the bundled setup scripts target Windows. On Linux/macOS, create a Python environment, install `requirements-local.txt`, install Ollama from its official distribution, download the chosen Qwen3 model, and run `scripts/download_embeddings.py` once. Start Ollama with `OLLAMA_NO_CLOUD=1`, then run `python -m local_sales.cli`. Cross-platform automated tests are configured in CI; they have not been executed on other hosts during this local build.
+The Python app is portable; the bundled setup scripts target Windows. On Linux/macOS, create a Python environment, install `requirements-local.txt`, install Ollama from its official distribution, download the chosen Qwen3 model, and run `scripts/download_embeddings.py` once. Start Ollama with `OLLAMA_NO_CLOUD=1`, then run `python -m local_sales.cli`. Cross-platform automated tests passed in GitHub CI on Windows and Ubuntu with Python 3.11 and 3.13. Full real-model installation was tested on the Windows development machine.
