@@ -37,6 +37,8 @@ powershell -ExecutionPolicy Bypass -File .\start.ps1
 
 Open **http://127.0.0.1:8000**. Setup requires internet to install dependencies and download models. Once those files are local, all eight workflows run without it. There is no hosted deployment.
 
+After setup, Windows users can also double-click **`Start Harvey.cmd`** in the project folder. Keep its console window open while using the dashboard. If the browser says `ERR_CONNECTION_REFUSED`, the dashboard is stopped: start the launcher first, then refresh the browser. A browser tab alone does not start the application.
+
 Setup defaults to `qwen3:4b`. For a smaller or larger model:
 
 ```powershell
